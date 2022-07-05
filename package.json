@@ -1,0 +1,13 @@
+{
+  "name": "test-chat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "node": "v16.13.2"
+  },
+  "scripts": {
+    "start": "cd server && yarn install && yarn start",
+    "build": "cd client && yarn install && yarn build"
+  }
+}
